@@ -1,0 +1,5 @@
+# Never commit private keys to this repo. Public keys go in trust_roots.json.
+*.pem
+*.key
+*-private*
+.DS_Store

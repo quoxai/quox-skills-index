@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "description": "Curator root signing keys for the QuoxSkills marketplace. Subscribers fetch this file to verify skill signatures. Append-only — revoked entries are marked active:false, never deleted.",
+  "trust_roots": [
+    {
+      "curator": "quox-core@official",
+      "algorithm": "Ed25519",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAL/WheO1CtpvRYTP5y2m3C8w4rcJpLRVKXDTyrYnDyOA=\n-----END PUBLIC KEY-----",
+      "key_fingerprint": "sha256:7df4d82847bd987d55128b898d9546a27aee2ed6e57033ce41fb0297ba495116",
+      "active": true,
+      "added_at": "2026-05-12T00:00:00Z",
+      "rotation_due": "2027-05-12T00:00:00Z",
+      "private_key_location_hint": "operator-local ~/.ssh/quox_skills_curator_official.pem (NEVER commit private key)"
+    }
+  ]
+}

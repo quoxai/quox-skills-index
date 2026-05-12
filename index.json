@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-12T00:00:00Z",
+  "curator": "quox-core@official",
+  "description": "Master catalog of QuoxSkills available from quox-core@official curator. Subscribers diff this against locally-installed versions and surface 'N new skills available' notifications. Each entry points to a per-version manifest under skills/<name>/<version>/.",
+  "skills": []
+}
